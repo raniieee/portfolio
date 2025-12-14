@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranie Espiritu| Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>RANIE ESPIRITU</h1>
+        <p class="title-subtext">Academic and Professional Summary</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="projects-section">
+            <h2>Featured Academic Projects</h2>
+
+            <article class="project-card">
+                <h3>Project 1: LOOPS</h3>
+                <img src="images\loops.jpg" alt="Placeholder image for Project 1">
+                <p>
+                    The Python script displayed in the image calculates the sum of all even numbers up to a limit
+                    defined by the user's input, n. The program first initializes an accumulator variable, sum_even,
+                    to zero and prompts the user to enter a number, which is stored in n. The core of the program is a
+                    for loop that utilizes the range(2, n + 1, 2) function. This construction is highly efficient
+                    because it starts the sequence at 2 (the first positive even number), includes n if it is even by
+                    setting the stop value to n + 1, and most importantly, uses a step of 2 to only iterate over even
+                    numbers. Inside the loop, the current even number i is added to the running total (sum_even =
+                    sum_even + i). As shown in the terminal output, when the user inputs 23 for n, the program
+                    calculates the sum of 2 + 4 + 6 + ... + 22 and outputs the final result, 132. This script
+                    effectively demonstrates the use of the range function with a step argument for conditional
+                    summation within a specific range.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Project 2: Mini Machine </h3>
+                <img src="images\mini machine.jpg" alt="Placeholder image for Project 2">
+                <p>
+                    This is a mini machine, specifically, a Command Line Interface (CLI) application designed to
+                    simulate
+                    a basic cafe or coffee shop ordering system.</p>
+
+                <li>
+                    Key Features:</li>
+                <li>Menu Display: It presents a short, numbered menu with items (Coffee, Latte, Muffin, Bagel) and their
+                    corresponding prices.</li>
+
+                <li>User Input/Interaction: The user interacts by typing in the number corresponding to the item they
+                    wish to order.</li>
+
+                <li>Order Building: The program tracks the items added to the customer's order dynamically (e.g., ->
+                    Added Muffin (Chocolate) to your order.).</li>
+
+                <li>Exit/Calculation: The user enters '9' to signal the end of the order and calculate the total.</li>
+
+            </article>
+
+            <article class="project-card">
+                <h3>Project 3: 3d Image</h3>
+                <img src="images\3d image.jpg" alt="Placeholder image for Project 3">
+                <p>
+                    The 3d image displays a graphical representation of a 3D windmill, complete with rotating blades and
+                    a
+                    simulated reflection, generated in a specialized plotting environment. The model features a central
+                    brown cylindrical tower, topped by a black disc representing the nacelle or hub. Attached to the hub
+                    are two prominent blue blades, angled to suggest motion and energy generation. The visualization is
+                    rendered within a 3D Cartesian coordinate system, clearly labeled with X, Y, and Z axes, which helps
+                    to orient the object in space. A notable feature is the semi-transparent reflection of the structure
+                    and the blades on the ground plane (Z=0), which enhances the depth and realism of the
+                    three-dimensional scene. This plot is an excellent example of using computational tools, such as
+                    Matplotlib's 3D capabilities, to visualize and simulate mechanical structures and engineering
+                    concepts like wind turbines.
+                </p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ranie Espiritu. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
